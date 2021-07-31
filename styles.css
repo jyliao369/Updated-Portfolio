@@ -1,4 +1,59 @@
-* {
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar section */
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+}
+
+#head {
+    font-size: 10px;
+}
+
+#navContainer {
+    font-size: 10px;
+}
+
+#nav {
+    font-size: 10px;
+}
+
+/* Biography section */
+#infoSection, #projectSection {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    height: 500px;
+}
+
+#profile, #title {
+    display: flex;
+    justify-content: center;    
+    width: 30%;
+    border-style: solid;
+}
+
+#info, #works {
+    width: 70%;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* * {
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +61,7 @@
 }
 
 /* HEADERS CUSTOMIZATION */
-h1 {
+/* h1 {
     color: darkblue;
     padding: 10px;
     margin: 22px;
@@ -20,9 +75,9 @@ h1 {
     flex-direction: row;
     align-items: center;
     background-color: skyblue;
-}
+} */
 
-h2 {
+/* h2 {
     font-size: 150%;
     margin: 25px;
     border-style: solid;
@@ -42,10 +97,10 @@ header .avatar {
     margin-left: 10px;
     margin-right: 15px;
     border-radius: 15px;
-}
+} */
 
 /* NAVBAR CUSTOMIZATION  */
-.navbar {
+/* .navbar {
     display: flex;
     list-style-type: none;
     width: 100%;
@@ -53,9 +108,9 @@ header .avatar {
     border-style: solid;
     border-width: 5px;
     border-color: darkslateblue;
-}
+} */
 
-.navbar a {
+/* .navbar a {
     display: inline;
     padding: 10px;
     font-size: 20px;
@@ -68,23 +123,22 @@ header .avatar {
     height: 30px;
     text-align: center;
     background-color: cornflowerblue;
-}
+} */
 
 /* ABOUT ME SECTION */
-.info {
+/* .info {
     margin: 5px;
 }
 
 p {
     margin: 15px;
-}
+} */
 
 /* MY WORKS SECTION */
-.MyWorks {
+/* .MyWorks {
     display: flex;
-    flex-wrap: wrap;
-    /* position: relative; */
-    flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-direction: row;
     justify-content: space-around;
 }
 
@@ -109,18 +163,18 @@ p {
 
 .works:hover {
     transform: scale(1.045);
-}
+} */
 
 /* IMAGES */
-.MyWorks img {
+/* .MyWorks img {
     width: 100%;
     height: 100%;
     border-radius: 8px 8px 8px 8px;
     border-style: solid;
     border-width: 4px;
-}
+} */
 
-/* BACKGROUND IMAGE */
+/* BACKGROUND IMAGE
 .background {
     height: 450px;
     width: 100%;
@@ -149,19 +203,19 @@ li {
     margin: -1.1px;
     background-color: lightskyblue;
     width: 95.6%;
-    font-weight: bold;
-}
+    font-weight: bold; */
+/* } */
 
 /* Customizing the line breaks */
-.line {
+/* .line {
     border: 4px solid darkslateblue;
     border-radius: 15px;
     width: 98.5%;
-    margin-left: .5%;
-}
+    margin-left: .5%; */
+/* } */
 
 /* THIS ADJUSTS THE CSS FILE TO BE RESPONSIVE BASED ON SCREEN SIZE */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     
     .MyWorks {
       flex-direction: column;
@@ -188,4 +242,4 @@ li {
         width: 104%;
     }
 
-}
+} */ 
