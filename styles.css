@@ -1,0 +1,191 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: paleturquoise;
+}
+
+/* HEADERS CUSTOMIZATION */
+h1 {
+    color: darkblue;
+    padding: 10px;
+    margin: 22px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkslateblue;
+    border-radius: 24px;
+    width: 320px;
+    font-size: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: skyblue;
+}
+
+h2 {
+    font-size: 150%;
+    margin: 25px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 30px;
+    border-color: darkblue;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+header .avatar {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+/* NAVBAR CUSTOMIZATION  */
+.navbar {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    background-color: lightskyblue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkslateblue;
+}
+
+.navbar a {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-style: solid;
+    border-color: darkslateblue;
+    margin: -2px;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+/* ABOUT ME SECTION */
+.info {
+    margin: 5px;
+}
+
+p {
+    margin: 15px;
+}
+
+/* MY WORKS SECTION */
+.MyWorks {
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.works {
+    width: 47%;
+    height: 315px;
+    margin: 10px;
+    transition: transform 1s;
+}
+
+.iconTitle {
+    font-size: 130%;
+    padding: 10px;
+    position: absolute;
+    margin-top: -59px;
+    border-radius: 8px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: indigo;
+    background-color: antiquewhite;
+}
+
+.works:hover {
+    transform: scale(1.045);
+}
+
+/* IMAGES */
+.MyWorks img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 8px 8px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+/* BACKGROUND IMAGE */
+.background {
+    height: 450px;
+    width: 100%;
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.infos {
+    list-style-type: none;
+    display: flex;
+    background-color: lightcyan;
+    width: 100.6%;
+}
+
+li {
+    float: left;
+    padding: 1.1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: darkblue;
+    margin: -1.1px;
+    background-color: lightskyblue;
+    width: 95.6%;
+    font-weight: bold;
+}
+
+/* Customizing the line breaks */
+.line {
+    border: 4px solid darkslateblue;
+    border-radius: 15px;
+    width: 98.5%;
+    margin-left: .5%;
+}
+
+/* THIS ADJUSTS THE CSS FILE TO BE RESPONSIVE BASED ON SCREEN SIZE */
+@media screen and (max-width: 768px) {
+    
+    .MyWorks {
+      flex-direction: column;
+      justify-content:space-around;
+    }
+    .works {
+        width: 95%;
+    }
+    h2 {
+        font-size: 132%;
+        width: 35%;
+    }
+    .infos {
+        flex-direction: column;
+    }
+    .navbar a {
+        width: 95%;
+    }
+    .navbar {
+        flex-direction: column;
+        width: 102%;
+    }
+    .background {
+        width: 104%;
+    }
+
+}
