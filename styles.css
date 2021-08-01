@@ -35,6 +35,9 @@ html {
 
 #nav a {
     padding: 16px;
+    text-decoration: none;
+    background: darkgray;
+    color: whitesmoke;
 }
 
 #name {
