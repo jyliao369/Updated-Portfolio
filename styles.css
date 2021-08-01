@@ -3,54 +3,170 @@ body {
     padding: 0px;
 }
 
+
 /* Navbar section */
 #navbar {
+    width: 100%;
+    position: fixed;
+    top: 0px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    border-style: solid;
+    background: rgb(223, 220, 220);
+    z-index: 1;
 }
 
 #head {
     font-size: 10px;
-}
-
-#navContainer {
-    font-size: 10px;
+    position: relative;
+    margin-left: 125px;
 }
 
 #nav {
-    font-size: 10px;
+    position: relative;
+    margin-right: 125px;
+}
+
+#nav a {
+    padding: 16px;
+    background: darkgray;
+}
+
+#name {
+    font-size: 25px;
 }
 
 /* Biography section */
-#infoSection, #projectSection {
+#infoSection {
     display: flex;
     flex-direction: row;
-    border-style: solid;
-    height: 500px;
+    height: 450px;
+    margin-top: 50px;
 }
 
-#profile, #title {
+#profile {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: bottom;
+}
+
+#profile img {
+    border-color: whitesmoke;
+    border-radius: 115px;
+    border-style: solid;
+    border-width: thick;
+    background: white;
+}
+
+#info{
+    width: 70%;
+    background: whitesmoke;
+}
+
+#bio {
+    margin: 45px;
+    margin-right: 135px;
+}
+
+/* Skills Sections */
+#skillSection {
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#skillTitle {
+    font-size: 30px;
+}
+
+#skillList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skillList p {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* customizes the images of the projects */
+#projectSection {
+    display: flex;
+    flex-direction: row;
+    background: bottom;
+}
+#title {
     display: flex;
     justify-content: center;    
     width: 30%;
-    border-style: solid;
-}
+    margin-top: 10px;
+    font-size: 30px;
+} 
 
-#info, #works {
+#project {
+    display: flex;
+    flex-direction: column;
     width: 70%;
-    border-style: solid;
+    background: whitesmoke;
 }
 
+#work {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+}
 
+#proTitle {
+    width: 50%;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
+#project img {
+    width: 275px;
+    height: 165px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    position: relative;
+    margin-right: 50px;
+}
 
+/* Contact information */
+#contactSection {
+    display: flex;
+    background: aliceblue;
+}
 
+#contactTitle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    font-size: 30px;
+}
 
+#contactInfo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    font-size: 20px;
+}
 
-
-
+#contactInfo li {
+    margin: 25px;
+}
 
 
 /* * {

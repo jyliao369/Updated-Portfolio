@@ -8,55 +8,130 @@
     <title>My Portfolio</title>
 </head>
 
+<header id="navbar">
+
+    <!-- header -->
+    <div id="head">
+        <h1>Justin Liao</h1>
+    </div>
+
+    <!-- navbar -->
+    <div id="navContainer">
+        <div id="nav">
+            <a class="active" href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    
+</header>
+
+
 <body>
-
-    <header id="navbar">
-
-        <!-- header -->
-        <div id="head">
-            <h1>Justin Liao</h1>
-        </div>
-
-        <!-- navbar -->
-        <div id="navContainer">
-            <div id="nav">
-                <a class="active" href="#home">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#resume">Resume</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-        
-    </header>
 
     <!-- About me or Biography -->
     <div id="infoSection">
         <!-- profile section -->
         <div id="profile">
-            <p>hellow</p>
+            <div>
+                <img src = "Images/avatar.jpg" class = "avatar" alt = "Avatar Placeholder">
+            </div>
+            <div id="name">
+                <p>Justin Liao</p>
+            </div>
         </div>
 
         <!-- biography -->
         <div id="info">
-            <h2>Biography</h2>
-            <p>hellow</p>
+            <div id ="bio">
+                <h2>Biography</h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, provident pariatur esse obcaecati, perspiciatis atque 
+                    quos recusandae nesciunt,architecto error eius magni inventore quidem quae porro cumque cupiditate rem maxime.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, provident pariatur esse obcaecati, perspiciatis atque 
+                    quos recusandae nesciunt,architecto error eius magni inventore quidem quae porro cumque cupiditate rem maxime.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, provident pariatur esse obcaecati, perspiciatis atque 
+                    quos recusandae nesciunt,architecto error eius magni inventore quidem quae porro cumque cupiditate rem maxime.
+                </p>
+            </div>
         </div>
     </div>
 
-    <br><br><br>
+    <!-- Skills section -->
+    <div id="skillSection">
+        <div id="skillTitle">
+            <p>Skills</p>
+        </div>
+        <!-- where skills are added -->
+        <div id="skillList">
+            <p>Javascript</p>
+            <p>CSS</p>
+            <p>HTML</p>
+            <p>JQuery</p>
+            <p>BootStrap</p>
+        </div>
+    </div>
 
     <!-- Projects Sections -->
     <div id="projectSection">
+
         <!-- this is where the title will go -->
         <div id = "title">
-            <p>hellow</p>
+            <p>Projects</p>
         </div>
 
         <!-- This is where the projects will be displayed -->
-        <div id="works">
-            
+        <div id="project">
+            <div id = "work">
+                <div id="proTitle">
+                    <h3>FeedIt!! Recipe Search Engine</h3>
+                    <p>Online search engine for Recipes and Drinks. Search for recipes based on ingredients on hand or by cuisine.</p>
+                </div>
+                <a href = "https://jyliao369.github.io/Horiseon/">
+                <img src = "Images/portfolio.jpg" alt = "Refactoring-Horiseon"/></a>
+            </div>
+            <div id= "work">
+                <div id="proTitle">
+                    <h3>Weather DashBoard</h3>
+                    <p>Forecast application that can help you find the current weather conditions and five day forecasts. Application
+                        has search history and records past cities.</p>
+                </div>
+                <a href = "https://jyliao369.github.io/prework-about-me/">
+                <img src = "Images/landing.jpg" alt = "Pre-Work"/></a>
+            </div>
+            <div id = "work"> 
+                <div id="proTitle">
+                    <h3>Quiz Show Application</h3>
+                    <p>It's Show Time!! Take the quiz and test your knowledge when it comes to Web development.</p>
+                </div>
+                <a href = "https://github.com/jyliao369/Landing-Page">
+                <img src = "Images/refactoring.jpg" alt = "Landing-Page"/></a>
+            </div>
+            <div id = "work" >
+                <div id="proTitle">
+                    <h3>Day Planner</h3>
+                    <p>You have too much on your plate but don't have anyone to help keep track? Here is a day planner that can help you tackle you hectic schedule.</p>
+                </div>
+                <a href = "https://github.com/jyliao369">
+                <img src = "Images/refactoring.jpg" alt = "GitHub Repo"/></a>
+            </div>
         </div>
 
+    </div>
+
+    <!-- Contact information -->
+    <div id="contactSection">
+        <div id="contactTitle">
+            <h4>Contact</h4>
+        </div>
+        <div id="contactInfo">
+            <ul>
+                <li>Email: jyliao369@gmail.com</li>
+                <li>Phone#: 336-425-9579</li>
+                <li>GitHub: https://github.com/jyliao369</li>
+                <li>LinkedIN: https://www.linkedin.com/in/justin-liao-64a75a17a/</li>
+            </ul>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
