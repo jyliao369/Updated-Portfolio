@@ -67,10 +67,12 @@ html {
 
 #profile img {
     border-color: whitesmoke;
-    border-radius: 115px;
+    border-radius: 70px;
     border-style: solid;
     border-width: thick;
     background: white;
+    width: 200px;
+    height: 225px;
 }
 
 #info{
