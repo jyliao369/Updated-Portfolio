@@ -214,3 +214,76 @@ html {
 #contactInfo li {
     margin: 25px;
 }
+
+/* This is will help stylize the mobile */
+@media screen and (max-width: 812px) {
+
+    #profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: bottom;
+    }
+
+    #infoSection {
+        flex-direction: column;
+    }
+
+    #info {
+        width: 100%;
+    }
+
+    #skillList {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 25px;
+        flex-direction: column;
+    }
+
+    #title {
+        width: 100%;
+    }
+
+    #projectSection {
+        flex-direction: column;
+    }
+
+    #work {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #project {
+        width: 100%;
+    }
+
+    #contactSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #nav {
+        display: flex;
+        position: relative;
+        margin-right: 0px;
+    }
+
+    #head {
+        font-size: 10px;
+        position: relative;
+        margin-left: 0px;
+    }
+
+    #bio {
+        margin: 45px;
+    }
+
+    #work a {
+        width: 20px;
+    }
+}
