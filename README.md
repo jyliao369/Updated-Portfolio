@@ -26,15 +26,15 @@ The goal of this activity is to give the developers a chance to use the knowledg
 
 ## Screenshots
 -- Original Portfolio --
-![Original Portfolio1](./screenshots/screenshot6.jpg)
-![Original Portfolio2](./screenshots/screenshot8.jpg)
+![Original Portfolio1](./screenshots/screenshot6.JPG)
+![Original Portfolio2](./screenshots/screenshot8.JPG)
 
 -- Updated Portfolio --
-![Updated Portfolio1](./screenshots/screenshot9.jpg)
-![Updated Portfolio2](./screenshots/screenshot10.jpg)
+![Updated Portfolio1](./screenshots/screenshot9.JPG)
+![Updated Portfolio2](./screenshots/screenshot10.JPG)
 
 -- Mobile Version --
-![Mobile Version](./screenshots/screenshot11.jpg)
+![Mobile Version](./screenshots/screenshot11.JPG)
 
 ## Links
 
