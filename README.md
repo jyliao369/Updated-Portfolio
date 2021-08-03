@@ -29,9 +29,11 @@ The goal of this activity is to give the developers a chance to use the knowledg
 ![Original Portfolio1](./screenshots/screenshot6.JPG)
 ![Original Portfolio2](./screenshots/screenshot8.JPG)
 
+
 -- Updated Portfolio --
 ![Updated Portfolio1](./screenshots/screenshot9.JPG)
 ![Updated Portfolio2](./screenshots/screenshot10.JPG)
+
 
 -- Mobile Version --
 ![Mobile Version](./screenshots/screenshot11.JPG)
@@ -40,4 +42,4 @@ The goal of this activity is to give the developers a chance to use the knowledg
 
 Github: https://github.com/jyliao369/Updated-Portfolio
 
-Deployed Link:
+Deployed Link: https://jyliao369.github.io/Updated-Portfolio/
